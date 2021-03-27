@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: rgba(0, 154, 215, 0.5);
+  perspective: 1000px;
+}
+
+section {
+  background: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  transform-style: preserve-3d;
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.card:hover {
+  transform: translate();
+}
+
+.card-header {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 150px;
+}
+
+.card-body {
+  padding: 0 20px 30px;
+}
+
+.img-container {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -50px auto 20px auto;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+.age,
+.location,
+.meta {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+.age {
+  margin-left: 6px;
+}
+
+.location {
+  font: 1rem;
+}
+
+.card-footer {
+  border-top: 1px solid hsla(0, 0%, 59%, 0.35);
+  display: flex;
+  padding: 0 15px;
+}
+
+.card-footer .item {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer .item .value {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.card-footer .item .meta {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+/* Footer Attribution */
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  padding: 0 0 15px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* BACKGROUND GRAPHICS */
+
+.circles .circle-top,
+.circles .circle-bottom {
+  position: absolute;
+  animation: 2s circles forwards;
+  opacity: 0;
+}
+
+.circles .circle-top {
+  top: -50%;
+  left: -5%;
+  transform: translate(-100px, -50px);
+}
+
+.circles .circle-bottom {
+  bottom: -50%;
+  right: -5%;
+  transform: translate(100px, 50px);
+}
+
+@keyframes circles {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
