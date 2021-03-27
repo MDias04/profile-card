@@ -22,8 +22,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/MDias04/profile-card)
+- Live Site URL: [Add live site URL here](https://cocky-bartik-8493c5.netlify.app/)
 
 ## My process
 
