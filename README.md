@@ -32,12 +32,13 @@
 - HTML5 markup
 - CSS custom properties
 - Flexbox
+- JS
 
 ### What I learned
 
-This was an amazing challenge to help me with my programming path. I still have a long way to go. This challenges will get me going.
+This was an amazing challenge to help me with my programming path. I still have a long way to go. These challenges will get me going.
 
 ### Useful resources
 
-- [My learning Workshops](https://www.shecodes.io) -
-- [Dev Ed - youtube](https://www.youtube.com/watch?v=XK7T3mY1V-w&t=1710s) - This is an amazing channel to learn more about programming
+- [sheCodes](https://www.shecodes.io) - Learning Workshops
+- [Dev Ed - youtube](https://www.youtube.com/watch?v=XK7T3mY1V-w&t=1710s) - This is an amazing and funny channel that helps me learning
